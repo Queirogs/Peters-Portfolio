@@ -15,13 +15,13 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Design />} />
+        <Route exact path="/" element={<Design />} />
           <Route path="/design" element={<Design />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Resume" element={<Resume />} />
-
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
